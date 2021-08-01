@@ -31,14 +31,23 @@ $db = new database();
 	          <li class="active">
 	            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
 	            <ul class="collapse list-unstyled" id="homeSubmenu">
-                <li>
-                    <a href="npure1.php">NPURE</a>
+				<li>
+                    <a href="caltusia.php">Caltusia</a>
+                </li>
+				<li>
+                    <a href="lacoco.php">Lacoco</a>
+                </li>
+				<li>
+                    <a href="npure.php">NPURE</a>
                 </li>
                 <li>
                     <a href="scarlett.php">Scarlett</a>
                 </li>
                 <li>
                     <a href="somethinc.php">Somethinc</a>
+                </li>
+				<li>
+                    <a href="whitelab.php">Whitelab</a>
                 </li>
 	            </ul>
 	          </li>
@@ -154,7 +163,7 @@ $db = new database();
 
 				<div class="col-md-3">
 					<button type="button" class="btn mb-2 mb-md-0 btn-outline-secondary btn-block">
-						<a href = "../view/input/input_transaksi.php">Input Data</a>
+						<a href = "../view/input/inputtransaksi.php">Input Data</a>
 					</button>
 				</div>
 
