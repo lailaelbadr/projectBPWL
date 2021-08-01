@@ -31,11 +31,23 @@ $db = new database();
 	          <li class="active">
 	            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
 	            <ul class="collapse list-unstyled" id="homeSubmenu">
-                <li>
+				<li>
+                    <a href="#">Caltusia</a>
+                </li>
+				<li>
+                    <a href="#">Lacoco</a>
+                </li>
+				<li>
                     <a href="#">NPURE</a>
+                </li>
+				<li>
+                    <a href="#">Somethinc</a>
                 </li>
                 <li>
                     <a href="#">Scarlett</a>
+                </li>
+				<li>
+                    <a href="#">Whitelab</a>
                 </li>
                 <li>
                     <a href="#">Home 3</a>
@@ -162,9 +174,11 @@ $db = new database();
 					<thead>
 					<tr>
 						<th scope="col">NO</th>
+						<th scope="col">Kode Supplier</th>
 						<th scope="col">Nama Supplier</th>
 						<th scope="col">Alamat</th>
 						<th scope="col">No Telepon</th>
+						<th scope="col">Update</th>
 					</tr>
 					</thead>
 
@@ -174,9 +188,14 @@ $db = new database();
 						?>
 						<tr>
 							<td><?php echo $no++; ?></td>
+							<td><?php echo $x['kode_supplier']; ?></td>
 							<td><?php echo $x['nama_supplier']; ?></td>
 							<td><?php echo $x['alamat_supplier']; ?></td>
 							<td><?php echo $x['no_telp']; ?></td>
+							<td>
+								<a href="../view/edit/editsupplier.php?id=<?php echo $x['kode_supplier']; ?>&aksi=edit">Edit</a>
+								<a href="../controller/prosessupplier.php?id=<?php echo $x['kode_supplier']; ?>&aksi=hapus">Hapus</a>
+							</td>
 						</tr>    
 					<?php
 					} 
