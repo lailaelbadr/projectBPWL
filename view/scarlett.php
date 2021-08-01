@@ -36,14 +36,23 @@ $db = new database();
 	          <li class="active">
 	            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
 	            <ul class="collapse list-unstyled" id="homeSubmenu">
-                <li>
-                    <a href="npure1.php">NPURE</a>
+				<li>
+                    <a href="caltusia.php">Caltusia</a>
+                </li>
+				<li>
+                    <a href="lacoco.php">Lacoco</a>
+                </li>
+				<li>
+                    <a href="npure.php">NPURE</a>
                 </li>
                 <li>
-                    <a href="scarlett.php">Scarlett</a>
+                    <a href="scarlett.php">Scarlett Whitening</a>
                 </li>
                 <li>
                     <a href="somethinc.php">Somethinc</a>
+                </li>
+				<li>
+                    <a href="whitelab.php">Whitelab</a>
                 </li>
 	            </ul>
 	          </li>
@@ -155,7 +164,7 @@ $db = new database();
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12 text-center">
-						<h2 class="heading-section mb-5 pb-md-4">SCARLETT</h2>
+						<h2 class="heading-section mb-5 pb-md-4">SCARLETT WHITENING</h2>
 					</div>
                     <div class="col-md-12 text-left">
 						<h2 class="heading-section mb-5 pb-md-4">Body Lotion</h2>
@@ -170,8 +179,8 @@ $db = new database();
 										</a>
 									</div>
 									<div class="text pt-3 w-100 text-center">
-										<h3><a href="#">Work 01</a></h3>
-										<span>Web Design</span>
+										<h3><a href="#">Fragrance Brightening Body Lotion Jolly</a></h3>
+										<span>Rp,-70.000</span>
 									</div>
 								</div>
 							</div>
@@ -183,8 +192,8 @@ $db = new database();
 										</a>
 									</div>
 									<div class="text pt-3 w-100 text-center">
-										<h3><a href="#">Work 02</a></h3>
-										<span>Web Design</span>
+									<h3><a href="#">Fragrance Brightening Body Lotion Charming</a></h3>
+										<span>Rp,-70.000</span>
 									</div>
 								</div>
 							</div>
@@ -196,8 +205,8 @@ $db = new database();
 										</a>
 									</div>
 									<div class="text pt-3 w-100 text-center">
-										<h3><a href="#">Work 03</a></h3>
-										<span>Web Design</span>
+									<h3><a href="#">Fragrance Brightening Body Lotion Fantasia</a></h3>
+										<span>Rp,-70.000</span>
 									</div>
 								</div>
 							</div>
@@ -209,8 +218,8 @@ $db = new database();
 										</a>
 									</div>
 									<div class="text pt-3 w-100 text-center">
-										<h3><a href="#">Work 04</a></h3>
-										<span>Web Design</span>
+									<h3><a href="#">Fragrance Brightening Body Lotion Freshy</a></h3>
+										<span>Rp,-70.000</span>
 									</div>
 								</div>
 							</div>
@@ -222,8 +231,8 @@ $db = new database();
 										</a>
 									</div>
 									<div class="text pt-3 w-100 text-center">
-										<h3><a href="#">Work 05</a></h3>
-										<span>Web Design</span>
+									<h3><a href="#">Fragrance Brightening Body Lotion Romansa</a></h3>
+										<span>Rp,-70.000</span>
 									</div>
 								</div>
 							</div>
@@ -243,8 +252,8 @@ $db = new database();
 										</a>
 									</div>
 									<div class="text pt-3 w-100 text-center">
-										<h3><a href="#">Work 01</a></h3>
-										<span>Web Design</span>
+									<h3><a href="#">Body Scrub Pomegrante</a></h3>
+										<span>Rp,-70.000</span>
 									</div>
 								</div>
 							</div>
@@ -256,12 +265,190 @@ $db = new database();
 										</a>
 									</div>
 									<div class="text pt-3 w-100 text-center">
-										<h3><a href="#">Work 02</a></h3>
-										<span>Web Design</span>
+									<h3><a href="#">Body Scrub Romansa</a></h3>
+										<span>Rp,-70.000</span>
 									</div>
 								</div>
 							</div>
 							
+						</div>
+					</div>
+					 <!--batas Scrub-->
+					 <div class="col-md-12 text-left">
+						<h2 class="heading-section mb-5 pb-md-4">Shower Scrub</h2>
+					</div>
+					<div class="col-md-12">
+						<div class="featured-carousel owl-carousel">
+							<div class="item">
+								<div class="work">
+									<div class="img d-flex align-items-center justify-content-center rounded" style="background-image: url(../images/Scarlett/10.jpg);">
+										<a href="#" class="icon d-flex align-items-center justify-content-center">
+											<span class="ion-ios-search"></span>
+										</a>
+									</div>
+									<div class="text pt-3 w-100 text-center">
+									<h3><a href="#">Shower Scrub Cucumber</a></h3>
+										<span>Rp,-70.000</span>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="work">
+									<div class="img d-flex align-items-center justify-content-center rounded" style="background-image: url(../images/Scarlett/11.jpg);">
+										<a href="#" class="icon d-flex align-items-center justify-content-center">
+											<span class="ion-ios-search"></span>
+										</a>
+									</div>
+									<div class="text pt-3 w-100 text-center">
+									<h3><a href="#">Showe Scrub Pomegrante</a></h3>
+										<span>Rp,-70.000</span>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="work">
+									<div class="img d-flex align-items-center justify-content-center rounded" style="background-image: url(../images/Scarlett/12.jpg);">
+										<a href="#" class="icon d-flex align-items-center justify-content-center">
+											<span class="ion-ios-search"></span>
+										</a>
+									</div>
+									<div class="text pt-3 w-100 text-center">
+									<h3><a href="#">Showe Scrub Mango</a></h3>
+										<span>Rp,-70.000</span>
+									</div>
+								</div>
+							</div>
+							</div>
+					</div>
+							 <!--batas Shower Scrub-->
+					 <div class="col-md-12 text-left">
+						<h2 class="heading-section mb-5 pb-md-4">Face Serum</h2>
+					</div>
+					<div class="col-md-12">
+						<div class="featured-carousel owl-carousel">
+							<div class="item">
+								<div class="work">
+									<div class="img d-flex align-items-center justify-content-center rounded" style="background-image: url(../images/Scarlett/13.png);">
+										<a href="#" class="icon d-flex align-items-center justify-content-center">
+											<span class="ion-ios-search"></span>
+										</a>
+									</div>
+									<div class="text pt-3 w-100 text-center">
+									<h3><a href="#">Glowtening Serum</a></h3>
+										<span>Rp,-70.000</span>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="work">
+									<div class="img d-flex align-items-center justify-content-center rounded" style="background-image: url(../images/Scarlett/14.jpg);">
+										<a href="#" class="icon d-flex align-items-center justify-content-center">
+											<span class="ion-ios-search"></span>
+										</a>
+									</div>
+									<div class="text pt-3 w-100 text-center">
+									<h3><a href="#">Acne Serum</a></h3>
+										<span>Rp,-70.000</span>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="work">
+									<div class="img d-flex align-items-center justify-content-center rounded" style="background-image: url(../images/Scarlett/15.jpg);">
+										<a href="#" class="icon d-flex align-items-center justify-content-center">
+											<span class="ion-ios-search"></span>
+										</a>
+									</div>
+									<div class="text pt-3 w-100 text-center">
+									<h3><a href="#">Brightly Ever After Serum</a></h3>
+										<span>Rp,-70.000</span>
+									</div>
+								</div>
+							</div>
+							</div>
+					</div>
+					<!--batas face serum-->
+					<div class="col-md-12 text-left">
+						<h2 class="heading-section mb-5 pb-md-4">Face Cream</h2>
+					</div>
+					<div class="col-md-12">
+						<div class="featured-carousel owl-carousel">
+							<div class="item">
+								<div class="work">
+									<div class="img d-flex align-items-center justify-content-center rounded" style="background-image: url(../images/Scarlett/16.jpg);">
+										<a href="#" class="icon d-flex align-items-center justify-content-center">
+											<span class="ion-ios-search"></span>
+										</a>
+									</div>
+									<div class="text pt-3 w-100 text-center">
+									<h3><a href="#">Acne Day Cream</a></h3>
+										<span>Rp,-70.000</span>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="work">
+									<div class="img d-flex align-items-center justify-content-center rounded" style="background-image: url(../images/Scarlett/18.jpg);">
+										<a href="#" class="icon d-flex align-items-center justify-content-center">
+											<span class="ion-ios-search"></span>
+										</a>
+									</div>
+									<div class="text pt-3 w-100 text-center">
+									<h3><a href="#">Acne Night Cream</a></h3>
+										<span>Rp,-70.000</span>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="work">
+									<div class="img d-flex align-items-center justify-content-center rounded" style="background-image: url(../images/Scarlett/19.jpg);">
+										<a href="#" class="icon d-flex align-items-center justify-content-center">
+											<span class="ion-ios-search"></span>
+										</a>
+									</div>
+									<div class="text pt-3 w-100 text-center">
+									<h3><a href="#">Brightly Ever After Day Cream</a></h3>
+										<span>Rp,-70.000</span>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="work">
+									<div class="img d-flex align-items-center justify-content-center rounded" style="background-image: url(../images/Scarlett/20.jpg);">
+										<a href="#" class="icon d-flex align-items-center justify-content-center">
+											<span class="ion-ios-search"></span>
+										</a>
+									</div>
+									<div class="text pt-3 w-100 text-center">
+									<h3><a href="#">Brightly Ever After Night Cream</a></h3>
+										<span>Rp,-70.000</span>
+									</div>
+								</div>
+							</div>
+							</div>
+					</div>
+					<!--batas cream-->
+                    <div class="col-md-12 text-left">
+						<h2 class="heading-section mb-5 pb-md-4">Facial Wash</h2>
+					</div>
+					<div class="col-md-12">
+						<div class="featured-carousel owl-carousel">
+							<div class="item">
+								<div class="work">
+									<div class="img d-flex align-items-center justify-content-center rounded" style="background-image: url(../images/Scarlett/21.jpg);">
+										<a href="#" class="icon d-flex align-items-center justify-content-center">
+											<span class="ion-ios-search"></span>
+										</a>
+									</div>
+									<div class="text pt-3 w-100 text-center">
+									<h3><a href="#">Brightening Facial wash</a></h3>
+										<span>Rp,-70.000</span>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+					</div>		
 						</div>
 					</div>
 				</div>
