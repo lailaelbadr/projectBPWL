@@ -31,14 +31,23 @@ $db = new database();
 	          <li class="active">
 	            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
 	            <ul class="collapse list-unstyled" id="homeSubmenu">
-                <li>
-                    <a href="npure1.php">NPURE</a>
+				<li>
+                    <a href="caltusia.php">Caltusia</a>
+                </li>
+				<li>
+                    <a href="lacoco.php">Lacoco</a>
+                </li>
+				<li>
+                    <a href="npure.php">NPURE</a>
                 </li>
                 <li>
                     <a href="scarlett.php">Scarlett</a>
                 </li>
                 <li>
                     <a href="somethinc.php">Somethinc</a>
+                </li>
+				<li>
+                    <a href="whitelab.php">Whitelab</a>
                 </li>
 	            </ul>
 	          </li>
@@ -52,7 +61,6 @@ $db = new database();
               <a href="tampiltransaksi.php">Transaksi</a>
 	          </li>
 	        </ul>
-
 	       
 
 	        <div class="footer">
@@ -161,10 +169,12 @@ $db = new database();
 				<table class="table custom-table text-center">
 					<tr>
 						<th scope="col">NO</th>
+						<th scope="col">Kode Barang</th>
 						<th scope="col">Nama Barang</th>
 						<th scope="col">Brand</th>
 						<th scope="col">Harga Barang</th>
 						<th scope="col">Jumlah</th>
+						<th scope="col">Update</th>
 					</tr>
 					<?php
 						$no = 1;
@@ -172,10 +182,15 @@ $db = new database();
 						?>
 						<tr>
 							<td><?php echo $no++; ?></td>
+							<td><?php echo $x['kode_barang']; ?></td>
 							<td><?php echo $x['nama_barang']; ?></td>
 							<td><?php echo $x['brand']; ?></td>
 							<td><?php echo $x['harga_barang']; ?></td>
 							<td><?php echo $x['jumlah']; ?></td>
+							<td>
+								<a href="../view/edit/editbarang.php?id=<?php echo $x['kode_barang']; ?>&aksi=edit">Edit</a>
+								<a href="../controller/prosesbarang.php?id=<?php echo $x['kode_barang']; ?>&aksi=hapus">Hapus</a>
+							</td>
 						</tr>    
 					<?php
 					} 
