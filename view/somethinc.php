@@ -36,14 +36,23 @@ $db = new database();
 	          <li class="active">
 	            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
 	            <ul class="collapse list-unstyled" id="homeSubmenu">
-                <li>
-                    <a href="npure1.php">NPURE</a>
+				<li>
+                    <a href="caltusia.php">Caltusia</a>
+                </li>
+				<li>
+                    <a href="lacoco.php">Lacoco</a>
+                </li>
+				<li>
+                    <a href="npure.php">NPURE</a>
                 </li>
                 <li>
-                    <a href="scarlett.php">Scarlett</a>
+                    <a href="scarlett.php">Scarlett Whitening</a>
                 </li>
                 <li>
                 <a href="somethinc.php">Somethinc</a>
+                </li>
+				<li>
+                    <a href="whitelab.php">Whitelab</a>
                 </li>
 	            </ul>
 	          </li>
@@ -167,8 +176,8 @@ $db = new database();
 										</a>
 									</div>
 									<div class="text pt-3 w-100 text-center">
-										<h3><a href="#">Work 01</a></h3>
-										<span>Web Design</span>
+										<h3><a href="#">AHA 1% BHA 7% PHA 3% WEEKLY PEELING SOLUTIONS</a></h3>
+										<span>Rp,-155.000</span>
 									</div>
 								</div>
 							</div>
@@ -180,8 +189,8 @@ $db = new database();
 										</a>
 									</div>
 									<div class="text pt-3 w-100 text-center">
-										<h3><a href="#">Work 02</a></h3>
-										<span>Web Design</span>
+										<h3><a href="#">NIACINAMIDE SKIN BARIER SERUM 5%</a></h3>
+										<span>Rp,-130.000</span>
 									</div>
 								</div>
 							</div>
@@ -193,8 +202,8 @@ $db = new database();
 										</a>
 									</div>
 									<div class="text pt-3 w-100 text-center">
-										<h3><a href="#">Work 03</a></h3>
-										<span>Web Design</span>
+									<h3><a href="#">NIACINAMIDE SKIN BARIER SERUM 10%</a></h3>
+										<span>Rp,-130.000</span>
 									</div>
 								</div>
 							</div>
@@ -206,8 +215,8 @@ $db = new database();
 										</a>
 									</div>
 									<div class="text pt-3 w-100 text-center">
-										<h3><a href="#">Work 04</a></h3>
-										<span>Web Design</span>
+										<h3><a href="#">AHA BHA PHA PEELING SOLUTIONS</a></h3>
+										<span>Rp,-130.000</span>
 									</div>
 								</div>
 							</div>
@@ -232,8 +241,8 @@ $db = new database();
 										</a>
 									</div>
 									<div class="text pt-3 w-100 text-center">
-										<h3><a href="#">Work 06</a></h3>
-										<span>Web Design</span>
+										<h3><a href="#">GAMECHANGER EYE CONCENTRATE GEL</a></h3>
+										<span>RP,-160.000</span>
 									</div>
 								</div>
 							</div>
