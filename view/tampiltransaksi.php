@@ -32,10 +32,22 @@ $db = new database();
 	            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
 	            <ul class="collapse list-unstyled" id="homeSubmenu">
                 <li>
+                    <a href="#">Caltusia</a>
+                </li>
+				<li>
+                    <a href="#">Lacoco</a>
+                </li>
+				<li>
                     <a href="#">NPURE</a>
+                </li>
+				<li>
+                    <a href="#">Somethinc</a>
                 </li>
                 <li>
                     <a href="#">Scarlett</a>
+                </li>
+				<li>
+                    <a href="#">Whitelab</a>
                 </li>
                 <li>
                     <a href="#">Home 3</a>
@@ -163,11 +175,12 @@ $db = new database();
 					<tr>
 						
 						<th scope="col">NO</th>
+						<th scope="col">Kode Transaksi</th>
 						<th scope="col">Kode Barang</th>
 						<th scope="col">Kode Supplier</th>
 						<th scope="col">Tanggal Transaksi</th>
 						<th scope="col">Jumlah</th>
-						
+						<th scope="col">Update</th>
 					</tr>
 					</thead>
 
@@ -177,10 +190,15 @@ $db = new database();
 						?>
 						<tr>
 							<td><?php echo $no++; ?></td>
+							<td><?php echo $x['kode_transaksi']; ?></td>
 							<td><?php echo $x['kode_barang']; ?></td>
 							<td><?php echo $x['kode_supplier']; ?></td>
 							<td><?php echo $x['tgl_transaksi']; ?></td>
 							<td><?php echo $x['jml']; ?></td>
+							<td>
+								<a href="../view/edit/edittransaksi.php?id=<?php echo $x['kode_transaksi']; ?>&aksi=edit">Edit</a>
+								<a href="../controller/prosestransaksi.php?id=<?php echo $x['kode_transaksi']; ?>&aksi=hapus">Hapus</a>
+							</td>
 						</tr>    
 					<?php
 					} 
