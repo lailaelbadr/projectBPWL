@@ -14,17 +14,7 @@ $db = new database();
 		
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css"/>
-  
-	<!--link search -->
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="author" content="colorlib.com">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400" rel="stylesheet" />
-    <link href="css/main.css" rel="stylesheet" />
-    
-	</head>
+  </head>
   <body>
 		
 		<div class="wrapper d-flex align-items-stretch">
@@ -41,14 +31,23 @@ $db = new database();
 	          <li class="active">
 	            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
 	            <ul class="collapse list-unstyled" id="homeSubmenu">
-                <li>
-                    <a href="npure1.php">NPURE</a>
+				<li>
+                    <a href="caltusia.php">Caltusia</a>
+                </li>
+				<li>
+                    <a href="lacoco.php">Lacoco</a>
+                </li>
+				<li>
+                    <a href="npure.php">NPURE</a>
                 </li>
                 <li>
                     <a href="scarlett.php">Scarlett</a>
                 </li>
                 <li>
-				<a href="somethinc.php">Somethinc</a>
+					<a href="somethinc.php">Somethinc</a>
+                </li>
+				<li>
+                    <a href="whitelab.php">Whitelab</a>
                 </li>
 	            </ul>
 	          </li>
@@ -84,7 +83,7 @@ $db = new database();
 			<form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
 				<div class="input-group">
 					<input type="text" class="form-control bg-light border-0 small" placeholder="Search for..."
-						aria-label="Search" aria-describedby="basic-addon2" name="cari">
+						aria-label="Search" aria-describedby="basic-addon2">
 					<div class="input-group-append">
 						<button class="btn btn-primary" type="button">
 							<i class="fas fa-search fa-sm"></i>
@@ -183,12 +182,6 @@ $db = new database();
 
 
 					<?php
-
-						if(isset($_GET['cari'])) {
-							$query = mysqli_query($con, "SELECT * FROM barang 
-							where nama_barang LIKE '%",$_GET['cari'],"%'");
-						}
-
 						$no = 1;
 						foreach($db->tampil_data() as $x){
 						?>
