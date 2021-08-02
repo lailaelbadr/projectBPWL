@@ -13,4 +13,3 @@ if ($aksi == "tambah"){
     $db->update($_POST['kode_supplier'], $_POST['nama_supplier'], $_POST['alamat_supplier'],  $_POST['no_telp']);
     header("location:../view/tampilsupplier.php");
 }
-?>

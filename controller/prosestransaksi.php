@@ -13,4 +13,3 @@ if ($aksi == "tambah"){
     $db->update($_POST['kode_transaksi'], $_POST['kode_barang'], $_POST['kode_supplier'],  $_POST['tgl_transaksi'],  $_POST['jml']);
     header("location:../view/tampiltransaksi.php");
 }
-?>
