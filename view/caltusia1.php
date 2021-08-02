@@ -34,28 +34,28 @@ $db = new database();
                 </button>
             </div>
             <div class="p-4 pt-5">
-                <h1><a href="index.html" class="logo">zurs.O</a></h1>
+                <h1><a href="index.html" class="logo">zurs.o</a></h1>
                 <ul class="list-unstyled components mb-5">
                     <li class="active">
                         <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
                         <ul class="collapse list-unstyled" id="homeSubmenu">
                             <li>
-                                <a href="caltusia.php">Caltusia</a>
+                                <a href="caltusia1.php">Caltusia</a>
                             </li>
                             <li>
-                                <a href="lacoco.php">Lacoco</a>
+                                <a href="lacoco1.php">Lacoco</a>
                             </li>
                             <li>
-                                <a href="npure.php">NPURE</a>
+                                <a href="npure1.php">NPURE</a>
                             </li>
                             <li>
-                                <a href="scarlett.php">Scarlett Whitening</a>
+                                <a href="scarlett1.php">Scarlett Whitening</a>
                             </li>
                             <li>
-                                <a href="somethinc.php">Somethinc</a>
+                                <a href="somethinc1.php">Somethinc</a>
                             </li>
                             <li>
-                                <a href="whitelab.php">Whitelab</a>
+                                <a href="whitelab1.php">Whitelab</a>
                             </li>
                         </ul>
                     </li>
@@ -68,9 +68,6 @@ $db = new database();
                     <li>
                         <a href="tampil_transaksi.php">Transaksi</a>
                     </li>
-                    <li>
-                        <a href="tampil_karyawan.php">Karyawan</a>
-                    </li>
                 </ul>
 
 
@@ -80,7 +77,7 @@ $db = new database();
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                         Copyright &copy;<script>
                             document.write(new Date().getFullYear());
-                        </script> Zurs.O
+                        </script> Zurs.o
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                     </p>
                 </div>
@@ -163,90 +160,120 @@ $db = new database();
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12 text-center">
-                            <h2 class="heading-section mb-5 pb-md-4">WHITELAB</h2>
+                            <h2 class="heading-section mb-5 pb-md-4">CALTUSIA</h2>
+                        </div>
+                        <div class="col-md-12 text-left">
+                            <h2 class="heading-section mb-5 pb-md-4">Hair Creambath</h2>
                         </div>
                         <div class="col-md-12">
                             <div class="featured-carousel owl-carousel">
                                 <div class="item">
                                     <div class="work">
-                                        <div class="img d-flex align-items-center justify-content-center rounded" style="background-image: url(../images/WHITELAB/3.jpg);">
+                                        <div class="img d-flex align-items-center justify-content-center rounded" style="background-image: url(../images/Caltusia/anti_dendruff.png);">
                                             <a href="#" class="icon d-flex align-items-center justify-content-center">
                                                 <span class="ion-ios-search"></span>
                                             </a>
                                         </div>
                                         <div class="text pt-3 w-100 text-center">
-                                            <h3><a href="#">Underarm Cream</a></h3>
-                                            <span>Rp,-75.000</span>
+                                            <h3><a href="#">Anti Dandruff Creambath</a></h3>
+                                            <span>Rp,-70.000</span>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="work">
-                                        <div class="img d-flex align-items-center justify-content-center rounded" style="background-image: url(../images/WHITELAB/8.jpg);">
+                                        <div class="img d-flex align-items-center justify-content-center rounded" style="background-image: url(../images/Caltusia/Cocoa.png);">
                                             <a href="#" class="icon d-flex align-items-center justify-content-center">
                                                 <span class="ion-ios-search"></span>
                                             </a>
                                         </div>
                                         <div class="text pt-3 w-100 text-center">
-                                            <h3><a href="#">Dark Spot Cream</a></h3>
-                                            <span>Rp,-105.000</span>
+                                            <h3><a href="#">Cocoa creambath</a></h3>
+                                            <span>Rp,-70.000</span>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="work">
-                                        <div class="img d-flex align-items-center justify-content-center rounded" style="background-image: url(../images/WHITELAB/9.jpg);">
+                                        <div class="img d-flex align-items-center justify-content-center rounded" style="background-image: url(../images/Caltusia/Coconut_milk.png);">
                                             <a href="#" class="icon d-flex align-items-center justify-content-center">
                                                 <span class="ion-ios-search"></span>
                                             </a>
                                         </div>
                                         <div class="text pt-3 w-100 text-center">
-                                            <h3><a href="#">Acne Soap</a></h3>
-                                            <span>Rp,-37.000</span>
+                                            <h3><a href="#">Coconut Milk Creambath</a></h3>
+                                            <span>Rp,-70.000</span>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="work">
-                                        <div class="img d-flex align-items-center justify-content-center rounded" style="background-image: url(../images/WHITELAB/10.jpg);">
+                                        <div class="img d-flex align-items-center justify-content-center rounded" style="background-image: url(../images/Caltusia/Gingseng.png);">
                                             <a href="#" class="icon d-flex align-items-center justify-content-center">
                                                 <span class="ion-ios-search"></span>
                                             </a>
                                         </div>
                                         <div class="text pt-3 w-100 text-center">
-                                            <h3><a href="#">Eye Cream</a></h3>
-                                            <span>Rp,-105.000</span>
+                                            <h3><a href="#">Gingseng Creambath</a></h3>
+                                            <span>Rp,-70.000</span>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="work">
-                                        <div class="img d-flex align-items-center justify-content-center rounded" style="background-image: url(../images/WHITELAB/1.jpg);">
+                                        <div class="img d-flex align-items-center justify-content-center rounded" style="background-image: url(../images/Caltusia/Kemiri.png);">
                                             <a href="#" class="icon d-flex align-items-center justify-content-center">
                                                 <span class="ion-ios-search"></span>
                                             </a>
                                         </div>
                                         <div class="text pt-3 w-100 text-center">
-                                            <h3><a href="#">Brightening Night Cream</a></h3>
-                                            <span>Rp,-100.000</span>
+                                            <h3><a href="#">Kemiri Creambath</a></h3>
+                                            <span>Rp,-70.000</span>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="work">
-                                        <div class="img d-flex align-items-center justify-content-center rounded" style="background-image: url(../images/WHITELAB/4.jpg);">
+                                        <div class="img d-flex align-items-center justify-content-center rounded" style="background-image: url(../images/Caltusia/Kiwi.png);">
                                             <a href="#" class="icon d-flex align-items-center justify-content-center">
                                                 <span class="ion-ios-search"></span>
                                             </a>
                                         </div>
                                         <div class="text pt-3 w-100 text-center">
-                                            <h3><a href="#">Brightening Day Cream</a></h3>
-                                            <span>Rp,-100.000</span>
+                                            <h3><a href="#">Kiwi Creambath</a></h3>
+                                            <span>Rp,-70.000</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="work">
+                                        <div class="img d-flex align-items-center justify-content-center rounded" style="background-image: url(../images/Caltusia/Lidah_Buaya.png);">
+                                            <a href="#" class="icon d-flex align-items-center justify-content-center">
+                                                <span class="ion-ios-search"></span>
+                                            </a>
+                                        </div>
+                                        <div class="text pt-3 w-100 text-center">
+                                            <h3><a href="#">Aloevera Creambath</a></h3>
+                                            <span>Rp,-70.000</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="work">
+                                        <div class="img d-flex align-items-center justify-content-center rounded" style="background-image: url(../images/Caltusia/Strawbwerry.png);">
+                                            <a href="#" class="icon d-flex align-items-center justify-content-center">
+                                                <span class="ion-ios-search"></span>
+                                            </a>
+                                        </div>
+                                        <div class="text pt-3 w-100 text-center">
+                                            <h3><a href="#">Strawberry Creambath</a></h3>
+                                            <span>Rp,-70.000</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </section>

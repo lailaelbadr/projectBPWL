@@ -40,22 +40,22 @@ $db = new database();
                         <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
                         <ul class="collapse list-unstyled" id="homeSubmenu">
                             <li>
-                                <a href="caltusia.php">Caltusia</a>
+                                <a href="caltusia1.php">Caltusia</a>
                             </li>
                             <li>
-                                <a href="lacoco.php">Lacoco</a>
+                                <a href="lacoco1.php">Lacoco</a>
                             </li>
                             <li>
-                                <a href="npure.php">NPURE</a>
+                                <a href="npure1.php">NPURE</a>
                             </li>
                             <li>
-                                <a href="scarlett.php">Scarlett Whitening</a>
+                                <a href="scarlett1.php">Scarlett Whitening</a>
                             </li>
                             <li>
-                                <a href="somethinc.php">Somethinc</a>
+                                <a href="somethinc1.php">Somethinc</a>
                             </li>
                             <li>
-                                <a href="whitelab.php">Whitelab</a>
+                                <a href="whitelab1.php">Whitelab</a>
                             </li>
                         </ul>
                     </li>
@@ -67,9 +67,6 @@ $db = new database();
                     </li>
                     <li>
                         <a href="tampil_transaksi.php">Transaksi</a>
-                    </li>
-                    <li>
-                        <a href="tampil_karyawan.php">Karyawan</a>
                     </li>
                 </ul>
 

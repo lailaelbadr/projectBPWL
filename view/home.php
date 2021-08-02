@@ -1,13 +1,8 @@
-<?php
-include '../model/databasekaryawan.php';
-$db = new database();
-?>
-
 <!doctype html>
 <html lang="en">
 
 <head>
-	<title>zurs.O</title>
+	<title>Sidebar 02</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -15,7 +10,41 @@ $db = new database();
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/style.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="home/fonts/icomoon/style.css">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="home/css/bootstrap.min.css">
+
+	<!-- Style CSS -->
+	<link rel="stylesheet" href="home/css/style.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="benner/fonts/icomoon/style.css">
+
+	<link rel="stylesheet" href="benner/css/owl.carousel.min.css">
+
+	<link rel="stylesheet" href="benner/css/animate.css">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="benner/css/bootstrap.min.css">
+
+	<!-- Style -->
+	<link rel="stylesheet" href="benner/css/style.css">
+
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" />
+
 </head>
 
 <body>
@@ -29,7 +58,7 @@ $db = new database();
 				</button>
 			</div>
 			<div class="p-4 pt-5">
-				<h1><a href="home.php" class="logo">zurs.O</a></h1>
+				<h1><a href="index.html" class="logo">zurs.O</a></h1>
 				<ul class="list-unstyled components mb-5">
 					<li class="active">
 						<a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
@@ -68,19 +97,16 @@ $db = new database();
 					</li>
 				</ul>
 
+				<div class="site-section bg-left-half mb-5">
 
 
-				<div class="footer">
-					<p>
-						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-						Copyright &copy;<script>
-							document.write(new Date().getFullYear());
-						</script> Zurs.O
-						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-					</p>
+					<script src="home1/js/jquery-3.3.1.min.js"></script>
+					<script src="home1/js/popper.min.js"></script>
+					<script src="home1/js/bootstrap.min.js"></script>
+					<script src="home1/js/owl.carousel.min.js"></script>
+					<script src="home1/js/main.js"></script>
+
 				</div>
-
-			</div>
 		</nav>
 
 		<!-- Page Content  -->
@@ -121,6 +147,8 @@ $db = new database();
 						</div>
 					</li>
 
+
+
 					<div class="topbar-divider d-none d-sm-block"></div>
 
 					<!-- Nav Item - User Information -->
@@ -154,86 +182,91 @@ $db = new database();
 				</ul>
 			</nav>
 
-			<h2 class="mb-4">Data Karyawan</h2>
-
 			<div class="content">
 
 				<div class="container">
+					<div class="owl-carousel owl-1 owl-loaded owl-drag">
 
-					<div class="col-md-3">
-						<button type="button" class="btn mb-2 mb-md-0 btn-outline-secondary btn-block">
-							<a href="../view/input/input_karyawan.php">Input Data</a>
+
+
+						<div class="owl-stage-outer">
+							<div class="owl-stage" style="transform: translate3d(-2790px, 0px, 0px); transition: all 0s ease 0s; width: 6510px;">
+								<div class="owl-item cloned" style="width: 930px;">
+									<div>
+										<img src="benner/images/1.jpg" alt="Image" class="img-fluid">
+									</div>
+								</div>
+								<div class="owl-item cloned" style="width: 930px;">
+									<div>
+										<img src="benner/images/2.jpg" alt="Image" class="img-fluid">
+									</div>
+								</div>
+								<div class="owl-item" style="width: 930px;">
+									<div>
+										<img src="benner/images/3.jpg" alt="Image" class="img-fluid">
+									</div>
+								</div>
+								<div class="owl-item active" style="width: 930px;">
+									<div>
+										<img src="benner/images/4.jpg" alt="Image" class="img-fluid">
+									</div>
+								</div>
+								<div class="owl-item" style="width: 930px;">
+									<div>
+										<img src="benner/images/5.jpg" alt="Image" class="img-fluid">
+									</div>
+								</div>
+								<div class="owl-item cloned" style="width: 930px;">
+									<div>
+										<img src="benner/images/6.jpg" alt="Image" class="img-fluid">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="owl-nav">
+							<button type="button" role="presentation" class="owl-prev">
+								<span class="icon-keyboard_arrow_left"></span>
+							</button>
+							<button type="button" role="presentation" class="owl-next">
+								<span class="icon-keyboard_arrow_right"></span>
+							</button>
+						</div>
+						<div class="owl-dots"><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot active"><span></span></button><button role="button" class="owl-dot"><span></span></button></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Logout Modal-->
+		<div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+						<button class="close" type="button" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">×</span>
 						</button>
 					</div>
-
-					<br></br>
-
-					<div class="table-responsive">
-						<table class="table custom-table text-center">
-							<tr>
-								<th scope="col">NO</th>
-								<th scope="col">Nama Karyawan</th>
-								<th scope="col">Alamat</th>
-								<th scope="col">No Telpon</th>
-								<th scope="col">Update</th>
-							</tr>
-
-
-							<?php
-							$no = 1;
-							foreach ($db->tampil_data() as $x) {
-							?>
-								<tr>
-									<td><?php echo $no++; ?></td>
-									<td><?php echo $x['nama_karyawan']; ?></td>
-									<td><?php echo $x['alamat']; ?></td>
-									<td><?php echo $x['no_telp']; ?></td>
-									<td>
-										<a href="../view/edit/edit_karyawan.php?id=<?php echo $x['kode_karyawan']; ?>&aksi=edit">Edit</a>
-										<a href="../controller/proses_karyawan.php?id=<?php echo $x['kode_karyawan']; ?>&aksi=hapus">Hapus</a>
-									</td>
-								</tr>
-							<?php
-							}
-							?>
-
-
-						</table>
+					<div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+					<div class="modal-footer">
+						<button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+						<a class="btn btn-primary" href="../index.php">Logout</a>
 					</div>
 				</div>
 			</div>
-
-
 		</div>
-	</div>
 
-
-
-
-
-	<!-- Logout Modal-->
-	<div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-		<div class="modal-dialog" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
-					<button class="close" type="button" data-dismiss="modal" aria-label="Close">
-						<span aria-hidden="true">×</span>
-					</button>
-				</div>
-				<div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
-				<div class="modal-footer">
-					<button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-					<a class="btn btn-primary" href="../index.php">Logout</a>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<script src="js/jquery.min.js"></script>
-	<script src="js/popper.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/main.js"></script>
+		<script src="benner/js/jquery-3.3.1.min.js"></script>
+		<script src="benner/js/popper.min.js"></script>
+		<script src="benner/js/bootstrap.min.js"></script>
+		<script src="benner/js/owl.carousel.min.js"></script>
+		<script src="benner/js/main.js"></script>
+		<!--  
+		<script src="js/jquery.min.js"></script>
+		<script src="js/popper.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/main.js"></script>
+		-->
 </body>
 
 </html>

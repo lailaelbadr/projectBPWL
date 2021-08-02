@@ -1,8 +1,3 @@
-<?php
-include '../model/databasebarang.php';
-$db = new database();
-?>
-
 <!doctype html>
 <html lang="en">
 
@@ -16,11 +11,40 @@ $db = new database();
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
 
-    <link rel="stylesheet" href="produk/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="produk/css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css">
-    <link rel="stylesheet" href="produk/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="home/fonts/icomoon/style.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="home/css/bootstrap.min.css">
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="home/css/style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="benner/fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="benner/css/owl.carousel.min.css">
+
+    <link rel="stylesheet" href="benner/css/animate.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="benner/css/bootstrap.min.css">
+
+    <!-- Style -->
+    <link rel="stylesheet" href="benner/css/style.css">
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" />
+
 </head>
 
 <body>
@@ -60,32 +84,26 @@ $db = new database();
                         </ul>
                     </li>
                     <li>
-                        <a href="tampil_barang.php">Barang</a>
+                        <a href="tampilbarang.php">Barang</a>
                     </li>
                     <li>
-                        <a href="tampil_supplier.php">Supplier</a>
+                        <a href="tampilsupplier.php">Supplier</a>
                     </li>
                     <li>
-                        <a href="tampil_transaksi.php">Transaksi</a>
-                    </li>
-                    <li>
-                        <a href="tampil_karyawan.php">Karyawan</a>
+                        <a href="tampiltransaksi.php">Transaksi</a>
                     </li>
                 </ul>
 
+                <div class="site-section bg-left-half mb-5">
 
 
-                <div class="footer">
-                    <p>
-                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        Copyright &copy;<script>
-                            document.write(new Date().getFullYear());
-                        </script> Zurs.O
-                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                    </p>
+                    <script src="home1/js/jquery-3.3.1.min.js"></script>
+                    <script src="home1/js/popper.min.js"></script>
+                    <script src="home1/js/bootstrap.min.js"></script>
+                    <script src="home1/js/owl.carousel.min.js"></script>
+                    <script src="home1/js/main.js"></script>
+
                 </div>
-
-            </div>
         </nav>
 
         <!-- Page Content  -->
@@ -126,6 +144,8 @@ $db = new database();
                         </div>
                     </li>
 
+
+
                     <div class="topbar-divider d-none d-sm-block"></div>
 
                     <!-- Nav Item - User Information -->
@@ -159,109 +179,65 @@ $db = new database();
                 </ul>
             </nav>
 
-            <section>
+            <div class="content">
+
                 <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 text-center">
-                            <h2 class="heading-section mb-5 pb-md-4">WHITELAB</h2>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="featured-carousel owl-carousel">
-                                <div class="item">
-                                    <div class="work">
-                                        <div class="img d-flex align-items-center justify-content-center rounded" style="background-image: url(../images/WHITELAB/3.jpg);">
-                                            <a href="#" class="icon d-flex align-items-center justify-content-center">
-                                                <span class="ion-ios-search"></span>
-                                            </a>
-                                        </div>
-                                        <div class="text pt-3 w-100 text-center">
-                                            <h3><a href="#">Underarm Cream</a></h3>
-                                            <span>Rp,-75.000</span>
-                                        </div>
+                    <div class="owl-carousel owl-1 owl-loaded owl-drag">
+
+
+
+                        <div class="owl-stage-outer">
+                            <div class="owl-stage" style="transform: translate3d(-2790px, 0px, 0px); transition: all 0s ease 0s; width: 6510px;">
+                                <div class="owl-item cloned" style="width: 930px;">
+                                    <div>
+                                        <img src="benner/images/hero_2.jpg" alt="Image" class="img-fluid">
                                     </div>
                                 </div>
-                                <div class="item">
-                                    <div class="work">
-                                        <div class="img d-flex align-items-center justify-content-center rounded" style="background-image: url(../images/WHITELAB/8.jpg);">
-                                            <a href="#" class="icon d-flex align-items-center justify-content-center">
-                                                <span class="ion-ios-search"></span>
-                                            </a>
-                                        </div>
-                                        <div class="text pt-3 w-100 text-center">
-                                            <h3><a href="#">Dark Spot Cream</a></h3>
-                                            <span>Rp,-105.000</span>
-                                        </div>
+                                <div class="owl-item cloned" style="width: 930px;">
+                                    <div>
+                                        <img src="benner/images/hero_3.jpg" alt="Image" class="img-fluid">
                                     </div>
                                 </div>
-                                <div class="item">
-                                    <div class="work">
-                                        <div class="img d-flex align-items-center justify-content-center rounded" style="background-image: url(../images/WHITELAB/9.jpg);">
-                                            <a href="#" class="icon d-flex align-items-center justify-content-center">
-                                                <span class="ion-ios-search"></span>
-                                            </a>
-                                        </div>
-                                        <div class="text pt-3 w-100 text-center">
-                                            <h3><a href="#">Acne Soap</a></h3>
-                                            <span>Rp,-37.000</span>
-                                        </div>
+                                <div class="owl-item" style="width: 930px;">
+                                    <div>
+                                        <img src="benner/images/hero_1.jpg" alt="Image" class="img-fluid">
                                     </div>
                                 </div>
-                                <div class="item">
-                                    <div class="work">
-                                        <div class="img d-flex align-items-center justify-content-center rounded" style="background-image: url(../images/WHITELAB/10.jpg);">
-                                            <a href="#" class="icon d-flex align-items-center justify-content-center">
-                                                <span class="ion-ios-search"></span>
-                                            </a>
-                                        </div>
-                                        <div class="text pt-3 w-100 text-center">
-                                            <h3><a href="#">Eye Cream</a></h3>
-                                            <span>Rp,-105.000</span>
-                                        </div>
+                                <div class="owl-item active" style="width: 930px;">
+                                    <div>
+                                        <img src="benner/images/hero_2.jpg" alt="Image" class="img-fluid">
                                     </div>
                                 </div>
-                                <div class="item">
-                                    <div class="work">
-                                        <div class="img d-flex align-items-center justify-content-center rounded" style="background-image: url(../images/WHITELAB/1.jpg);">
-                                            <a href="#" class="icon d-flex align-items-center justify-content-center">
-                                                <span class="ion-ios-search"></span>
-                                            </a>
-                                        </div>
-                                        <div class="text pt-3 w-100 text-center">
-                                            <h3><a href="#">Brightening Night Cream</a></h3>
-                                            <span>Rp,-100.000</span>
-                                        </div>
+                                <div class="owl-item" style="width: 930px;">
+                                    <div>
+                                        <img src="benner/images/hero_3.jpg" alt="Image" class="img-fluid">
                                     </div>
                                 </div>
-                                <div class="item">
-                                    <div class="work">
-                                        <div class="img d-flex align-items-center justify-content-center rounded" style="background-image: url(../images/WHITELAB/4.jpg);">
-                                            <a href="#" class="icon d-flex align-items-center justify-content-center">
-                                                <span class="ion-ios-search"></span>
-                                            </a>
-                                        </div>
-                                        <div class="text pt-3 w-100 text-center">
-                                            <h3><a href="#">Brightening Day Cream</a></h3>
-                                            <span>Rp,-100.000</span>
-                                        </div>
+                                <div class="owl-item cloned" style="width: 930px;">
+                                    <div>
+                                        <img src="benner/images/hero_1.jpg" alt="Image" class="img-fluid">
+                                    </div>
+                                </div>
+                                <div class="owl-item cloned" style="width: 930px;">
+                                    <div>
+                                        <img src="benner/images/hero_2.jpg" alt="Image" class="img-fluid">
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        <div class="owl-nav">
+                            <button type="button" role="presentation" class="owl-prev">
+                                <span class="icon-keyboard_arrow_left"></span>
+                            </button>
+                            <button type="button" role="presentation" class="owl-next">
+                                <span class="icon-keyboard_arrow_right"></span>
+                            </button>
+                        </div>
+                        <div class="owl-dots"><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot active"><span></span></button><button role="button" class="owl-dot"><span></span></button></div>
                     </div>
                 </div>
-            </section>
-
-            <script src="produk/js/jquery.min.js"></script>
-            <script src="produk/js/popper.js"></script>
-            <script src="produk/js/bootstrap.min.js"></script>
-            <script src="produk/js/owl.carousel.min.js"></script>
-            <script src="produk/js/main.js"></script>
+            </div>
         </div>
-
-
-
-
-
 
         <!-- Logout Modal-->
         <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -282,10 +258,17 @@ $db = new database();
             </div>
         </div>
 
-        <script src="js/jquery.min.js"></script>
-        <script src="js/popper.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/main.js"></script>
+        <script src="benner/js/jquery-3.3.1.min.js"></script>
+        <script src="benner/js/popper.min.js"></script>
+        <script src="benner/js/bootstrap.min.js"></script>
+        <script src="benner/js/owl.carousel.min.js"></script>
+        <script src="benner/js/main.js"></script>
+        <!--  
+		<script src="js/jquery.min.js"></script>
+		<script src="js/popper.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/main.js"></script>
+		-->
 </body>
 
 </html>
