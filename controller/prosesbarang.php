@@ -1,16 +1,48 @@
 <?php
-include '../model/databasebarang.php';
-$db = new database();
+// mengaktifkan session pada php
+session_start();
 
-$aksi = $_GET['aksi'];
-if ($aksi == "tambah"){
-    $db->input($_POST['kode_barang'], $_POST['nama_barang'], $_POST['brand'],  $_POST['harga_barang'],  $_POST['jumlah']);
-    header("location:../view/tampilbarang.php");
-} else if($aksi == "hapus"){
-    $db->hapus($_GET['id']);
-    header("location:../view/tampilbarang.php");
-} else if($aksi == "update"){ 
-    $db->update($_POST['kode_barang'], $_POST['nama_barang'], $_POST['brand'],  $_POST['harga_barang'],  $_POST['jumlah']);
-    header("location:../view/tampilbarang.php");
+// menghubungkan php dengan koneksi database
+include '../model/koneksi.php';
+
+// menangkap data yang dikirim dari form login
+$username = $_POST['username'];
+$password = $_POST['password'];
+
+
+// menyeleksi data user dengan username dan password yang sesuai
+$login = mysqli_query($koneksi, "select * from user where username='$username' and password='$password'");
+// menghitung jumlah data yang ditemukan
+$cek = mysqli_num_rows($login);
+
+// cek apakah username dan password di temukan pada database
+if ($cek > 0) {
+
+	$data = mysqli_fetch_assoc($login);
+
+	// cek jika user login sebagai admin
+	if ($data['level'] == "owner") {
+
+		// buat session login dan username
+		$_SESSION['username'] = $username;
+		$_SESSION['level'] = "owner";
+		// alihkan ke halaman dashboard admin
+		header("location:../view/home.php");
+
+		// cek jika user login sebagai pegawai
+	} else if ($data['level'] == "karyawan") {
+		// buat session login dan username
+		$_SESSION['username'] = $username;
+		$_SESSION['level'] = "karyawan";
+		// alihkan ke halaman dashboard pegawai
+		header("location:../view/home1.php");
+
+		// cek jika user login sebagai pengurus
+	} else {
+
+		// alihkan ke halaman login kembali
+		header("location:../index.php?pesan=gagal");
+	}
+} else {
+	header("location:../index.php?pesan=gagal");
 }
-?>
