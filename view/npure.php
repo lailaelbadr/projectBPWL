@@ -176,8 +176,8 @@ $db = new database();
 										</a>
 									</div>
 									<div class="text pt-3 w-100 text-center">
-										<h3><a href="#">Work 01</a></h3>
-										<span>Web Design</span>
+										<h3><a href="#">Centella Asiatica Toner</a></h3>
+										<span>Rp,-120.000</span>
 									</div>
 								</div>
 							</div>
@@ -189,8 +189,8 @@ $db = new database();
 										</a>
 									</div>
 									<div class="text pt-3 w-100 text-center">
-										<h3><a href="#">Work 02</a></h3>
-										<span>Web Design</span>
+										<h3><a href="#">Aloevera cactus 300 ml</a></h3>
+										<span>Rp,-100.000</span>
 									</div>
 								</div>
 							</div>
@@ -202,8 +202,8 @@ $db = new database();
 										</a>
 									</div>
 									<div class="text pt-3 w-100 text-center">
-										<h3><a href="#">Work 03</a></h3>
-										<span>Web Design</span>
+										<h3><a href="#">Centella Asiatica Day cream</a></h3>
+										<span>Rp,-120.000</span>
 									</div>
 								</div>
 							</div>
@@ -215,8 +215,8 @@ $db = new database();
 										</a>
 									</div>
 									<div class="text pt-3 w-100 text-center">
-										<h3><a href="#">Work 04</a></h3>
-										<span>Web Design</span>
+										<h3><a href="#">Centella Asiatica Essence</a></h3>
+										<span>Rp,-170.000</span>
 									</div>
 								</div>
 							</div>
@@ -228,8 +228,8 @@ $db = new database();
 										</a>
 									</div>
 									<div class="text pt-3 w-100 text-center">
-										<h3><a href="#">Work 05</a></h3>
-										<span>Web Design</span>
+										<h3><a href="#">Centella Asiatica Night Cream</a></h3>
+										<span>Rp,-125.000</span>
 									</div>
 								</div>
 							</div>
@@ -241,8 +241,8 @@ $db = new database();
 										</a>
 									</div>
 									<div class="text pt-3 w-100 text-center">
-										<h3><a href="#">Work 06</a></h3>
-										<span>Web Design</span>
+										<h3><a href="#">Centella Asiatica Primer serum</a></h3>
+										<span>Rp,-150.000</span>
 									</div>
 								</div>
 							</div>
